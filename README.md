@@ -102,4 +102,6 @@
 
     
 для очистки кэша и удаления конкретного файла из истории контроля версий:
+'
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch ПУТЬ/НАЗВАНИЕ_ФАЙЛА.ТИП' --prune-empty --tag-name-filter cat -- --all
+'
