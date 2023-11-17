@@ -37,7 +37,7 @@ def receive_file(server_address, server_port):
 
     print("Передача файла завершена")
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     receive_file('127.0.0.1', 12345)
 
 '
