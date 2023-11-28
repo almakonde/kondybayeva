@@ -19,10 +19,10 @@ Original file is located at
 def human_to_dog_age(human_age):
     if human_age < 0:
         return "Ошибка: Возраст не может быть отрицательным"
-    elif human_age <= 2:
-        dog_age = human_age * 10.5
+    elif human_age <= 2*10.5:
+        dog_age = human_age /10.5
     else:
-        dog_age = 2 * 10.5 + (human_age - 2) * 4
+        dog_age = (human_age)/10.5 + (human_age - (2*10.5)) / 4
 
     return f"Собачий возраст: {dog_age} лет"
 
